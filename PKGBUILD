@@ -13,7 +13,7 @@ depends=('qt5-svg' 'qt5-webengine' 'yaml-cpp' 'networkmanager' 'boost' 'upower'
          'solid' 'qt5-tools')
 provides=("${pkgname}-${pkgver}")
 source=("${url}/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.gz")
-sha256sums=('7591b9b60738bdba7b9de2b8da5462ab21006db06a006f0dd21ac5b832711dd2')
+sha256sums=('a0fbcec2a438693753fc174220356119ad7adb8a2b19c317518aa1cb025d6dd0')
 
 build() {
            mkdir -p ${srcdir}/${pkgname}-${pkgver}/build
